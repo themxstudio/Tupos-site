@@ -1,43 +1,499 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="dark light" />
 
-    <title>Studio Tupos | Fair Oaks Prints, Commissions & Workshops</title>
+    <title>
+      Studio Tupos | Original Abstract Paintings & Commissions by Patricia Mills
+      (Sacramento)
+    </title>
     <meta
       name="description"
-      content="Studio Tupos is a Fair Oaks art studio offering original prints, custom commissions, and workshops. View the work and inquire to purchase prints or book a commission."
+      content="Shop original abstract paintings and request custom commissions by Sacramento artist Patricia Mills. Studio Tupos offers one-of-one artwork made to live in your space."
     />
-    <meta name="robots" content="index,follow" />
-    <meta name="referrer" content="strict-origin-when-cross-origin" />
 
-    <link rel="canonical" href="https://studiotupos.com/" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://www.studiotupos.com/" />
 
-    <link rel="icon" href="/assets/favicon.icoV=3?" />
+    <link rel="icon" href="/favicon.ico?v=999" sizes="any" />
 
+    <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Studio Tupos" />
-    <meta property="og:title" content="Studio Tupos | Web Design & UX" />
-
+    <meta
+      property="og:title"
+      content="Studio Tupos | Original Abstract Paintings & Commissions by Patricia Mills (Sacramento)"
+    />
     <meta
       property="og:description"
-      content="Fast, accessible websites with strong UX."
+      content="Shop original abstract paintings and request custom commissions by Sacramento artist Patricia Mills. One-of-one artwork from Studio Tupos."
     />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://studiotupos.com/" />
-    <meta
-      property="og:image"
-      content="https://studiotupos.com/assets/logo.png"
-    />
-    <meta property="og:image:alt" content="Studio Tupos preview image" />
+    <meta property="og:url" content="https://www.studiotupos.com/" />
 
-    <link rel="stylesheet" href="/styles.css" />
-    <script src="/app.js" defer></script>
+    <meta property="og:image" content="https://www.studiotupos.com/og.jpg" />
+    <meta
+      property="og:image:alt"
+      content="Original abstract paintings and commissions by Patricia Mills"
+    />
+
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/pages/landing.css" />
+
+    <script src="/js/main.js" defer></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://www.studiotupos.com/#website",
+            "url": "https://www.studiotupos.com/",
+            "name": "Studio Tupos",
+            "inLanguage": "en"
+          },
+          {
+            "@type": ["LocalBusiness", "ProfessionalService"],
+            "@id": "https://www.studiotupos.com/#business",
+            "name": "Studio Tupos",
+            "url": "https://www.studiotupos.com/",
+            "areaServed": [
+              { "@type": "City", "name": "Sacramento, CA" },
+              {
+                "@type": "AdministrativeArea",
+                "name": "Sacramento County, CA"
+              }
+            ],
+            "knowsAbout": [
+              "Original paintings",
+              "Abstract paintings",
+              "Original abstract art",
+              "Abstract art commissions",
+              "Commissioned paintings",
+              "Custom artwork",
+              "Sacramento artist",
+              "Patricia Mills"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.studiotupos.com/#webpage",
+            "url": "https://www.studiotupos.com/",
+            "name": "Studio Tupos | Original Abstract Paintings & Commissions by Patricia Mills (Sacramento)",
+            "isPartOf": { "@id": "https://www.studiotupos.com/#website" },
+            "about": { "@id": "https://www.studiotupos.com/#business" },
+            "inLanguage": "en"
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
-    <h1>Studio Tupos</h1>
-    <p>Site coming soon!!</p>
-    <img href="assets/logo.jpg" />
+    <header class="site-header">
+      <div class="site-header__inner">
+        <div class="site-header__left">
+          <a class="site-header__logo" href="/" aria-label="Home">
+            <img src="/assets/logo-transparent.png" alt="" />
+          </a>
+          <a class="site-header__brand" href="/">Studio Tupos</a>
+        </div>
+
+        <nav class="site-header__nav site-nav--desktop" aria-label="Primary">
+          <ul class="nav">
+            <li class="nav__item">
+              <a class="nav__link" href="/patricia-mills.html">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="/art-gallery.html">Work</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="/artist-commissions.html"
+                >Commissions</a
+              >
+            </li>
+
+            <li class="nav__item nav__item--dropdown">
+              <a class="nav__toggle" href="/billy-mills/index.html"
+                >Billy Mills</a
+              >
+              <ul class="subnav" id="billy-subnav">
+                <li class="subnav__item">
+                  <a class="subnav__link" href="/billy-mills/index.html"
+                    >About</a
+                  >
+                </li>
+                <li class="subnav__item">
+                  <a
+                    class="subnav__link"
+                    href="/billy-mills/1964-tokyo-olympics.html"
+                    >10,000 Meter Dash</a
+                  >
+                </li>
+                <li class="subnav__item">
+                  <a
+                    class="subnav__link"
+                    href="/billy-mills/running-strong.html"
+                    >Running Strong</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          class="nav-toggle site-nav--mobile"
+          type="button"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle__icon"><span></span></span>
+        </button>
+      </div>
+      <div class="nav-drawer site-nav--mobile" aria-hidden="true">
+        <div class="nav-drawer__backdrop"></div>
+
+        <aside class="nav-drawer__panel" role="dialog" aria-label="Menu">
+          <div class="nav-drawer__header">
+            <button
+              class="nav-drawer__close"
+              type="button"
+              aria-label="Close menu"
+            ></button>
+          </div>
+
+          <ul class="nav-drawer__links">
+            <li><a href="/patricia-mills.html">About</a></li>
+            <li><a href="/art-gallery.html">Work</a></li>
+            <li><a href="/artist-commissions.html">Commissions</a></li>
+
+            <li class="drawer-acc">
+              <button
+                class="drawer-acc__toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="drawer-billy"
+              >
+                Billy Mills
+              </button>
+
+              <ul class="drawer-acc__panel" id="drawer-billy" hidden>
+                <li><a href="/billy-mills/index.html">About</a></li>
+                <li>
+                  <a href="/billy-mills/1964-tokyo-olympics.html"
+                    >10,000 Meter Dash</a
+                  >
+                </li>
+                <li>
+                  <a href="/billy-mills/running-strong.html">Running Strong</a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </aside>
+      </div>
+    </header>
+    <main>
+      <section class="hero-mid" aria-labelledby="hero-title">
+        <div class="hero-mid__grid">
+          <div class="hero-mid__media hero-mid__media--square">
+            <img
+              class="hero-mid__img"
+              src="assets/logo-transparent.png"
+              alt="Studio Tupos logo"
+              width="1800"
+              height="1800"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+
+          <div class="hero-mid__content">
+            <h1 id="hero-title">Studio Tupos</h1>
+            <p>
+              Studio Tupos is the working studio of Patricia Mills. Studio Tupos
+              explores her story, her work, and what she's about. In Greek,
+              Tupos means a mark; an impression; a pattern; a model.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="media-split">
+        <div class="media-split__grid">
+          <div class="media-split__content">
+            <h2>Artist Statement</h2>
+            <p>
+              This statement is written specifically for Patricia’s thesis
+              painting, inspired by her great-grandmother’s delicate old
+              farmhouse on the prairies of Kansas.
+            </p>
+            <p>
+              As a child, she moved through the farmhouse doorways without
+              knowing the house’s history. Over time, those thresholds became
+              more than architecture. Patricia realized how a door absorbs both
+              memory and weather; it can carry the lightness or darkness of a
+              season, and mark the quiet passing of years. In this work, the
+              doorway becomes a metaphor for time.
+            </p>
+            <p>
+              Time, here, is active and specific. Process is part of the search.
+              Patricia works on the floor, building the piece from all
+              directions until the surface relates to the content. Each
+              brushstroke is meant to evoke the time and memory she is seeking.
+            </p>
+          </div>
+
+          <figure class="media-split__card">
+            <img
+              class="media-split__img"
+              src="/assets/images/studio-tupos-thesis-art.jpg"
+              alt="Patricia's thesis painting"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </section>
+      <section class="cta-band">
+        <div class="cta-band__inner">
+          <a class="cta-band__link" href="/patricia-mills.html"
+            >Learn about the artist</a
+          >
+          <a class="cta-band__link" href="/artist-commissions.html"
+            >Inquire about commissions</a
+          >
+          <a class="cta-band__link" href="/sacramento-county.html"
+            >Involvement in Sacramento</a
+          >
+        </div>
+      </section>
+      <section class="media-split media-split--left">
+        <div class="media-split__grid">
+          <figure class="media-split__card">
+            <img
+              class="media-split__img"
+              src="/assets/images/Horse-Whsiperer-patricia-mills.jpg"
+              alt="Archival print 1"
+              loading="lazy"
+            />
+          </figure>
+
+          <div class="media-split__content">
+            <h2>Archival Prints</h2>
+            <p>
+              When I was introduced to Edward Curtis and his photographs of
+              Native Americans, I knew I was being compelled to create my own
+              interpretation of these images. I want to bring these images into
+              the 21st Century, using color and an impressionist style of
+              painting to share with a new generation.
+            </p>
+            <p>
+              Feeling like I was coming face to face with images of long ago, I
+              became aware that these images are as relevant today as in the
+              early 1900’s.
+            </p>
+
+            <a
+              class="media-split__cta"
+              href="https://www.etsy.com/shop/StudioTuposPrints"
+              aria-label="Shop archival prints"
+            >
+              Shop now
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="media-split media-split--left">
+        <div class="media-split__grid">
+          <figure class="media-split__card">
+            <img
+              class="media-split__img"
+              src="/assets/images/kalispell-man-patricia-mills.jpg"
+              alt="Archival print 1"
+              loading="lazy"
+            />
+          </figure>
+
+          <div class="media-split__content">
+            <h2>Kalispel Man</h2>
+            <p>
+              Circa 1910. The Kalispel live in Northeastern Washington, on the
+              Columbia River. In 1910, the tribe numbered a little more than one
+              hundred. This handsome fellow was a member of the lower Ped
+              d-Orielles (Ear Pendants) originally from British Columbia. I am
+              showing the drips on this painting to represent not only tears,
+              but unifying and dissolving the image at the same time.
+            </p>
+
+            <a
+              class="media-split__cta"
+              href="https://www.etsy.com/shop/StudioTuposPrints"
+              aria-label="Shop archival prints"
+            >
+              Shop now
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="media-split media-split--left">
+        <div class="media-split__grid">
+          <figure class="media-split__card">
+            <img
+              class="media-split__img"
+              src="/assets/images/Wings-of-an-eagle-billy-mills.jpg"
+              alt="Archival print 1"
+              loading="lazy"
+            />
+          </figure>
+
+          <div class="media-split__content">
+            <h2>Wings of an Eagle</h2>
+            <p>
+              This piece was created to symbolize the energy and strength of
+              Billy Mills' legendary victory at the 1964 Tokyo Olympic Games.
+            </p>
+            <p>
+              As you look as this painting, there are many images on which to
+              focus. Since Billy's image is the dominate factor, I wanted to
+              introduce metaphor and abstraction into the meaning of his win and
+              the meaning of this
+            </p>
+
+            <a
+              class="media-split__cta"
+              href="https://www.etsy.com/shop/StudioTuposPrints"
+              aria-label="Shop archival prints"
+            >
+              Shop now
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="cta-band">
+        <div class="cta-band__inner">
+          <a class="cta-band__link" href="/contact.html">Contact the artist</a>
+          <a class="cta-band__link" href="/billy-mills/index.html"
+            >The Story of Billy Mills</a
+          >
+          <a class="cta-band__link" href="/fair-oaks.html"
+            >Patricia's Fair Oaks roots</a
+          >
+        </div>
+      </section>
+      <section class="text-stack">
+        <div class="text-stack__inner">
+          <h2>At a glance...</h2>
+          <div class="text-stack__grid">
+            <article class="text-stack__item">
+              <h3>Kansas roots, lifelong practice</h3>
+              <p>
+                Patricia grew up in Kansas, where wide-open landscapes, quiet
+                routines, and a deep sense of place shaped the way she sees and
+                makes work. From early on, she built her voice as an artist
+                through steady practice—drawing, painting, and learning how to
+                translate feeling into form. That foundation still shows up in
+                the work today: patient surfaces, intentional choices, and a
+                commitment to craft. Alongside her studio practice, she also
+                creates commissioned art for people who want a piece made with
+                meaning, not just decoration.
+              </p>
+            </article>
+
+            <article class="text-stack__item">
+              <h3>Meeting Billy Mills at KU</h3>
+              <p>
+                While at the University of Kansas, Patricia met Billy Mills.
+                Their relationship became the beginning of a shared life shaped
+                by creativity, movement, and purpose—one that expanded how she
+                thought about identity, history, and story. Over time, her work
+                grew to hold more than personal expression; it became a space to
+                explore culture, memory, and the lived identities of Native
+                American peoples. Drawing inspiration from many sources,
+                Patricia’s art reflects both her own perspective and a continual
+                desire to learn, listen, and create with respect.
+              </p>
+            </article>
+
+            <article class="text-stack__item">
+              <h3>From Fair Oaks to Sacramento</h3>
+              <p>
+                Patricia has carried her work into many settings. She has taught
+                art on cruise ships, shared her paintings with new audiences,
+                and exhibited at the California State Fair. For a time, she also
+                owned a studio in Fair Oaks, where she welcomed the community
+                through paint-and-sip classes and hands-on creative experiences.
+                Today, her practice continues in the Sacramento area—balancing
+                ongoing studio work with commission art for collectors and
+                clients who want something personal, made locally, and built to
+                last.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer__grid">
+        <div class="site-footer__left" aria-hidden="true">
+          <img
+            class="site-footer__img"
+            src="/assets/logo-transparent.png"
+            alt="Studio Tupos artwork"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+
+        <div class="site-footer__middle">
+          <a class="site-footer__email" href="mailto:millsgold@aol.com"
+            >millsgold@aol.com</a
+          >
+
+          <a
+            class="site-footer__shop"
+            href="https://www.etsy.com/shop/StudioTuposPrints"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Check out our shop
+          </a>
+
+          <nav class="site-footer__links" aria-label="Footer">
+            <a class="site-footer__navlink" href="/patricia-mills.html"
+              >About</a
+            >
+            <a class="site-footer__navlink" href="/terms.html">Terms</a>
+            <a class="site-footer__navlink" href="/contact.html">Contact</a>
+          </nav>
+        </div>
+      </div>
+      <div class="site-footer__local">
+        <a class="site-footer__local-link" href="/fair-oaks.html">Fair Oaks</a>
+        <a class="site-footer__local-link" href="/sacramento-county.html"
+          >Sacramento County</a
+        >
+      </div>
+      <div class="site-footer__bottom">
+        <p>
+          © <span class="site-footer__year"></span>
+          <a
+            class="site-footer__mx"
+            href="https://www.themxstudio.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >The MX Studio</a
+          >.
+        </p>
+      </div>
+    </footer>
+    <script>
+      document.querySelector(".site-footer__year").textContent =
+        new Date().getFullYear();
+    </script>
   </body>
+  <script src="/assets/js/header.js" defer></script>
 </html>
